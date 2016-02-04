@@ -6,7 +6,7 @@ The idea behind this project is, mainly, to help us identify your strengths so w
 
 Your task will be to create the main structure, layout and look&feel of a landing page taking these tips into consideration:
 
-* Create a fork of this repository. When you are ready to deliver the proyect, create a pull request so we can check it out.
+* Create a fork of this repository. When you are ready to deliver the project, create a pull request so we can check it out.
 * The mockup is a fully editable and layered .png file created in Adobe Fireworks.
 * Use `HTML` and `CSS`.
 * You can use `Javascript`, but transitions and animations should be CSS-only.
