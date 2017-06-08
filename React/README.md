@@ -2,7 +2,7 @@
 
 The challenge is simple:
 
-- Create a minimal expression(from your perspective) of a blog platform.
+- Create a minimal expression(from your perspective) for a blog platform.
 
 You have up to *72hs* to deliver the finished challenge.
 
