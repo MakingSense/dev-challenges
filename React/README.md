@@ -2,7 +2,7 @@
 
 The challenge is simple:
 
-- Create a minimal expression(from your perspective) for a blog platform.
+- Create a minimal expression(from your perspective) of a blog platform.
 
 You have up to *72hs* to deliver the finished challenge.
 
@@ -12,6 +12,6 @@ Tip: if you don't know something make your best guess or assumption, we want to 
 
 Remember: Create a fork of this repository add your changes When you are ready to deliver the project, create a pull request so we can check it out.
 
-The Dev development team wish you luck, and we hope to have you working with us soon!
+The development team wish you luck, and we hope to have you working with us soon!
 
 May the code be with you
