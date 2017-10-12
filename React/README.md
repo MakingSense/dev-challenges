@@ -1,24 +1,24 @@
 # React Challenge
 
 
-##1 - Mern-seed  login research:
+## 1 - Mern-seed  login research:
 Clone the mern-seed project.  
 Create a branch from master following our github conventions in case you want to implement the feature or just add comments/suggestions of the code that you look.
 If we decided to implement a login form into the project, what will be the best approach to take? You can create a comparison table of the possible options and make a conclussion with what will be for you the best decision to take (assume that the client has an amazing API)
 
 Bonus track: implement the login based on your decision and made a PR with your changes
 
-![](http://confluence.makingsense.com/download/attachments/14516482/image2017-8-16%2016%3A27%3A54.png)
+![](https://content.screencast.com/users/mravinales/folders/Jing/media/54554999-375c-4b76-9c4a-2d67ce26424c/00000650.png)
 
-##2 - Mern-seed login with JWT:
+## 2 - Mern-seed login with JWT:
 Clone the mern-seed project.  
 Create a branch from master following our github conventions.
 Implement a basic login using JWT.
 Create a PR with your code so others devs can made a code review on it.
 
-![](http://confluence.makingsense.com/download/attachments/14516482/image2017-8-16%2016%3A28%3A1.png)
+![](https://content.screencast.com/users/mravinales/folders/Jing/media/54554999-375c-4b76-9c4a-2d67ce26424c/00000650.png)
 
-##3 - Mern-seed grid research:
+## 3 - Mern-seed grid research:
 Clone the mern-seed project.  
 Create a branch from master following our github conventions in case you want to implement the feature or just add comments/suggestions of the code that you look.
 If we decided to implement a grid into the project, what will be the best approach to take? You can create a comparison table of the possible components around there and make a conclussion with what will be for you the best decision to take.
@@ -26,7 +26,7 @@ If we decided to implement a grid into the project, what will be the best approa
 Bonus track: implement the grid component based on your decision and made a PR with your changes
 ![](http://www.independent-software.com/wp-content/uploads/2014/03/ajax-table-example.png)
 
-##4 - Mern-seed grids:
+## 4 - Mern-seed grids:
 Clone the mern-seed project.  
 Create a branch from master following our github conventions.
 Create a new page in the project
@@ -49,7 +49,7 @@ The object what you will get from the API will be something like this:
 You only need to display in the grid the ones that has stock
 
 
-##Bonus 
+## Bonus 
 Given the following code, can you identify the two main problems? 
 
 class MyComponent extends React.Component {
