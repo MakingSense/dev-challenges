@@ -48,6 +48,51 @@ The object what you will get from the API will be something like this:
 ]
 You only need to display in the grid the ones that has stock
 
+## 5 - Google map challenge:
+This test should take about an hour to do. 
+
+Fork the following JSFiddle that has the base data:
+
+https://jsfiddle.net/mravinale/4d3t924z/
+
+
+Create an react app (In js fiddle) that does the following:
+
+Uses a data service to get the data from the object in the fiddle above
+
+Use (http://doc.jsfiddle.net/use/echo.html) to make the get statement on the http service.
+
+
+#### Handles the data in a way that produces something that fits the followings rules:
+
+The array of listings need to show in the order given by the data service.
+
+- For the Price
+
+  * It should have "$" and commas as separators.
+
+  * If the Transaction is Rent, then it should also say "per month" after it
+
+- Open Houses are to look like:
+
+  * Open House: Feb. 3rd - 2:00 AM to 3:30 PM
+
+  * Only show the next open house that is to occur.
+
+- The overall format of the listing:
+
+  * First line: Left Align Street Number + Street Name, right align price.
+
+  * Second Line: Left Align Transaction
+
+  * Third+ Lines: Open Houses centered in the format given above
+
+Below the results, in a map that is 400x400, geocode the 2 addresses with google maps.
+
+The JsFiddle has gmaps loaded as an external resource if you fork it.
+
+Clicking the marker for a listing, should highlight that listing in the results. 
+
 
 ## Bonus 
 Given the following code, can you identify the two main problems? 
