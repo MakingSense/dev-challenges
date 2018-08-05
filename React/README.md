@@ -1,102 +1,100 @@
-# React Challenge
+# React challenges
 
+Not everything is important, but if you're in doubt, you can check our [evaluation criteria](../EvaluationCriteria.md).
 
-## 1 - Mern-seed  login research:
-Clone the mern-seed project.  
-Create a branch from master following our github conventions in case you want to implement the feature or just add comments/suggestions of the code that you look.
-If we decided to implement a login form into the project, what will be the best approach to take? You can create a comparison table of the possible options and make a conclussion with what will be for you the best decision to take (assume that the client has an amazing API)
+## 1 - MERN-Seed login research:
 
-Bonus track: implement the login based on your decision and made a PR with your changes
+Clone the [MERN-Seed][] project.
 
-![](https://content.screencast.com/users/mravinales/folders/Jing/media/54554999-375c-4b76-9c4a-2d67ce26424c/00000650.png)
+Create a branch from master following our GitHub conventions in case you want to implement the feature or just add comments/suggestions of the code that you review.
 
-## 2 - Mern-seed login with JWT:
-Clone the mern-seed project.  
-Create a branch from master following our github conventions.
+If we decided to implement a login form into the project, what will be the best approach to take? You can create a comparison table of the possible options and make a conclusion with what will be for you the best decision to take.
+
+Bonus: implement the login based on your decision and make a PR with your changes.
+
+## 2 - MERN-Seed login with JWT
+
+Clone the [MERN-Seed][] project.
+
+Create a branch from master following our GitHub conventions.
+
 Implement a basic login using JWT.
-Create a PR with your code so others devs can made a code review on it.
 
-![](https://content.screencast.com/users/mravinales/folders/Jing/media/54554999-375c-4b76-9c4a-2d67ce26424c/00000650.png)
+Create a PR with your code so others devs can make a code review on it.
 
-## 3 - Mern-seed grid research:
-Clone the mern-seed project.  
-Create a branch from master following our github conventions in case you want to implement the feature or just add comments/suggestions of the code that you look.
-If we decided to implement a grid into the project, what will be the best approach to take? You can create a comparison table of the possible components around there and make a conclussion with what will be for you the best decision to take.
+## 3 - MERN-Seed grid research
 
-Bonus track: implement the grid component based on your decision and made a PR with your changes
-![](http://www.independent-software.com/wp-content/uploads/2014/03/ajax-table-example.png)
+Clone the [MERN-Seed][] project.
 
-## 4 - Mern-seed grids:
-Clone the mern-seed project.  
-Create a branch from master following our github conventions.
-Create a new page in the project
-Implement a grid component. 
-Create a grid with the following format:
+Create a branch from master following our GitHub conventions in case you want to implement the feature or just add comments/suggestions of the code that you review.
 
-![](http://www.independent-software.com/wp-content/uploads/2014/03/ajax-table-example.png)
+If we decided to implement a generic grid component into the project, what will be the best approach to take? You can create a comparison table of the possible components around there and make a conclusion with what will be for you the best decision to take.
+
+Bonus: implement the grid component based on your decision and made a PR with your changes,
+
+## 4 - MERN-Seed grid example
+
+Clone the [MERN-Seed][] project.
+
+Create a branch from master following our GitHub conventions.
+
+Create a new page in the project.
+
+Implement a grid component with the following format:
+
+![grid-example](grid-example.png)
 
 The object what you will get from the API will be something like this:
- [ 
-   {id: 1, name: 'Brampton Sauvignon Blanc', hasStock: false},
-   {id: 10, name: 'Le Riche Cabernet Sauvignon', hasStock: true},
-   {id: 11, name: 'Vergelegen', hasStock: false},
-   {id: 12, name: 'Veenwouden Merlot', hasStock: true},
-   {id: 13, name: 'De Trafford Pinot Noir', hasStock: true},
-   {id: 14, name: 'De Wetshof Pinot Noir', hasStock: true},
-   {id: 15, name: 'De Wetshof Limelight Chardonnay', hasStock: true},
-   {id: 15, name: 'De Wetshof Pinor Noit Brut', hasStock: true}
-]
-You only need to display in the grid the ones that has stock
 
-## 5 - Google map challenge:
-This test should take about an hour to do. 
+```javascript
+[
+  { id: 1, name: 'Brampton Sauvignon Blanc', hasStock: false },
+  { id: 10, name: 'Le Riche Cabernet Sauvignon', hasStock: true },
+  { id: 11, name: 'Vergelegen', hasStock: false },
+  { id: 12, name: 'Veenwouden Merlot', hasStock: true },
+  { id: 13, name: 'De Trafford Pinot Noir', hasStock: true },
+  { id: 14, name: 'De Wetshof Pinot Noir', hasStock: true },
+  { id: 15, name: 'De Wetshof Limelight Chardonnay', hasStock: true },
+  { id: 15, name: 'De Wetshof Pinor Noit Brut', hasStock: true }
+]
+```
+
+You only need to display in the grid the elements that have stock.
+
+## 5 - Google map challenge
+
+This test should take about an hour to do.
 
 Fork the following JSFiddle that has the base data:
 
 https://jsfiddle.net/mravinale/Lyy64nwc/
 
+Create a react app (in jsFiddle) that does the following:
 
-Create an react app (In js fiddle) that does the following:
+- Uses a data service to get the data from the object in the fiddle above
+- Uses the [echo service](http://doc.jsfiddle.net/use/echo.html) to make the get request on the http service.
+- Handles the data in a way that produces something that fits the followings rules:
+    - The array of listings need to show in the order given by the data service.
+    - For the Price
+        * It should have "$" and commas as thousand-separators.
+        * If the Transaction is Rent, then it should also say "per month" after it
+    - Open Houses are to look like:
+        * Open House: Feb. 3rd - 2:00 AM to 3:30 PM
+        * Only show the next open house that is to occur.
+    - The overall format of the listing:
+        * First line: Left Align Street Number + Street Name, right align price.
+        * Second Line: Left Align Transaction
+        * Third+ Lines: Open Houses centered in the format given above
+    - Below the results, in a map that is 400x400, geocode the 2 addresses with google maps.
+    - Clicking the marker for a listing, it should highlight that listing in the results. 
 
-Uses a data service to get the data from the object in the fiddle above
+The JsFiddle already has GMaps loaded as an external resource if you fork it.
 
-Use (http://doc.jsfiddle.net/use/echo.html) to make the get statement on the http service.
+## 6 - Code review
 
+Given the following code, can you identify the two main problems? Aside from that, point out any other improvement opportunities.
 
-#### Handles the data in a way that produces something that fits the followings rules:
-
-The array of listings need to show in the order given by the data service.
-
-- For the Price
-
-  * It should have "$" and commas as separators.
-
-  * If the Transaction is Rent, then it should also say "per month" after it
-
-- Open Houses are to look like:
-
-  * Open House: Feb. 3rd - 2:00 AM to 3:30 PM
-
-  * Only show the next open house that is to occur.
-
-- The overall format of the listing:
-
-  * First line: Left Align Street Number + Street Name, right align price.
-
-  * Second Line: Left Align Transaction
-
-  * Third+ Lines: Open Houses centered in the format given above
-
-Below the results, in a map that is 400x400, geocode the 2 addresses with google maps.
-
-The JsFiddle has gmaps loaded as an external resource if you fork it.
-
-Clicking the marker for a listing, should highlight that listing in the results. 
-
-
-## Bonus 
-Given the following code, can you identify the two main problems? 
-
+```jsx
 class MyComponent extends React.Component {
     constructor(props) {
         // set the default internal state
@@ -137,16 +135,6 @@ class MyComponent extends React.Component {
         );
     }
 }
+```
 
-
-
-
-Everything will be evaluated, technical and non-technical skills. Show us what you've got!
-
-Tip: if you don't know something make your best guess or assumption, we want to know how you think.
-
-Remember: Create a new repository for your project. When you are ready, send it to us so we can check it out!
-
-The Development Team wishes you luck, and we hope to have you working with us soon!
-
-May the code be with you.
+[MERN-Seed]: https://github.com/MakingSense/mern-seed
