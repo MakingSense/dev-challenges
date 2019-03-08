@@ -25,6 +25,9 @@ The detailed view should have:
 
 Here are a few suggestions, but not requirements. Feel free to do them or not.
 
+- Have the app done in two columns: a small one to the left with the listing and a large one on the right with the detail
+- Implement deep-linking
+- Prepare your app to have the API Key configurable (maybe as part of a release process?)
 - Setup some tests for your app
 - Document any decisions that you'd like to communicate, why you thought of taking some approach (maybe in a README.md?)
 
