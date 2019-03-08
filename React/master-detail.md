@@ -1,4 +1,4 @@
-# Master-detail exercise
+# Marvel master-detail exercise
 
 Use the Marvel API and create a small app that:
 
