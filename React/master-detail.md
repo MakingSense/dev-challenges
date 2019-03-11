@@ -21,6 +21,11 @@ The detailed view should have:
 - The biography of the superhero
 - Any links available for the superhero (`urls`)
 
+## Requirements
+
+- Use React + Redux
+- Setup a Git Repository of your own to upload the code
+
 ## Suggestions
 
 Here are a few suggestions, but not requirements. Feel free to do them or not.
@@ -30,5 +35,6 @@ Here are a few suggestions, but not requirements. Feel free to do them or not.
 - Prepare your app to have the API Key configurable (maybe as part of a release process?)
 - Setup some tests for your app
 - Document any decisions that you'd like to communicate, why you thought of taking some approach (maybe in a README.md?)
+- No design/CSS is needed, but who are we to say no?
 
 Marvel API: https://developer.marvel.com/
