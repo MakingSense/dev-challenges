@@ -4,7 +4,7 @@ Here are the challenges that you may choose to try out for .NET development.
 
 ### Blogging platform
 
-**Create a minimal expression (from your perspective) of a blogging platform).**
+**Create a minimal expression (from your perspective) of a blogging platform.**
 
 Only the Backend exposed as an API is required, but feel free to go beyond that if you want to.
 
