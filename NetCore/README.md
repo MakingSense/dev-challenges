@@ -24,3 +24,5 @@ Some ideas on how to adapt it further follow. Feel free to add your own! They ar
     - Private: only the author can see them, they appear in the author's blog only if the logged in user is the author
     - Public: everyone can see them
 - Text search
+
+Publish your solution in a GitHub repository and send us what you've done!
