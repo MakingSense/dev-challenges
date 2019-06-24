@@ -1,6 +1,6 @@
 # Marvel master-detail exercise
 
-Use the Marvel API* and create a small app that:
+Use the Marvel API ([see troubleshooting notes below](#troubleshooting)) and create a small app that:
 
 - Lists superheroes
 - Allows the user to select one and look at details of the superhero
@@ -47,16 +47,16 @@ Here are some suggestions (in no particular order). API with access keys will be
 
 | API                                                                                        | Has access key? | Has OAuth? |
 |--------------------------------------------------------------------------------------------|:---------------:|:----------:|
-| [Spotify Web API](https://developer.spotify.com/documentation/web-api/)                    |       ✓         |     ✓     |
 | [Star Wars API](https://swapi.co/)                                                         |                 |            |
 | [Star Trek API](http://stapi.co/)                                                          |                 |            |
 | [PokéAPI](https://pokeapi.co/docs/v2.html)                                                 |                 |            |
 | [TheySaidSo Famous Quotes API](https://theysaidso.com/api/)                                |   ✓ (Optional)  |           |
+| [Giphy API](https://developers.giphy.com/docs/)                                            |       ✓         |            |
+| [NYTimes API](https://developer.nytimes.com/)                                              |       ✓         |            |
+| [Spotify Web API](https://developer.spotify.com/documentation/web-api/)                    |       ✓         |     ✓     |
 | [Twitter API](https://developer.twitter.com/en/docs.html)                                  |       ✓         |     ✓      |
 | [StackExchange API](https://api.stackexchange.com/)                                        |       ✓         |     ✓      |
-| [Giphy API](https://developers.giphy.com/docs/)                                            |       ✓         |            |
 | [Instagram API](https://www.instagram.com/developer/)                                      |       ✓         |     ✓     |
-| [NYTimes API](https://developer.nytimes.com/)                                              |       ✓         |            |
 
 
 Some more ideas available in [AnyAPI](https://any-api.com/) or in [Public APIs](https://github.com/public-apis/public-apis).
