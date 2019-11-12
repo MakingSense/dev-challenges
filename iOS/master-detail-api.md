@@ -26,6 +26,7 @@ The detailed view should have:
 - Consume an API, show results in the app
 - Display a listing that can be navigated, and another screen/panel with each item details
 - Setup a Git Repository of your own to upload the code
+- Setup some tests for your app (unit tests? application tests? you choose!)
 
 Not everything is important, but if you're in doubt, you can check our [evaluation criteria](../EvaluationCriteria.md).
 
@@ -33,9 +34,8 @@ Not everything is important, but if you're in doubt, you can check our [evaluati
 
 Here are a few suggestions, but not requirements. Feel free to do them or not.
 
-- Have the app done in two columns: a small one to the left with the listing and a large one on the right with the detail
+- Use a pre-set MVC/MVP/MVVM/VIPER architecture or framework. Shows us how you organize your code.
 - Prepare your app to have the API Key configurable (maybe as part of a release process?)
-- Setup some tests for your app
 - Document any decisions that you'd like to communicate, why you thought of taking some approach (maybe in a README.md?)
 - No visual design is needed, but who are we to say no?
 
