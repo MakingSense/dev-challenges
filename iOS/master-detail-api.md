@@ -27,6 +27,8 @@ The detailed view should have:
 - Display a listing that can be navigated, and another screen/panel with each item details
 - Setup a Git Repository of your own to upload the code
 
+Not everything is important, but if you're in doubt, you can check our [evaluation criteria](../EvaluationCriteria.md).
+
 ## Suggestions
 
 Here are a few suggestions, but not requirements. Feel free to do them or not.
