@@ -10,6 +10,7 @@ Please select your challenge, create a repository for your project, and send it 
 - [Angular 1.x challenges](Angular1.x/README.md)
 - [NetCore challenges](NetCore/README.md)
 - [NodeJS challenges](NodeJS/README.md)
+- [iOS challenges](iOS/master-detail-api.md)
 
 You have up to *72hs* to deliver the finished challenge.
 
