@@ -4,16 +4,17 @@ We propose a challenge that requires you to build a small application that works
 
 The rules of the game are:
 
+![screen-initial](labyrinth-challenge.assets/screen-initial.png)
+
 * The game is played in a square grid of N x M cells. The amount of cells is configurable.
-  ![screen-initial](labyrinth-challenge.assets/screen-initial.png)
 * The player (the black and white circle) starts at a customizable initial position.
 * The player can move using the keyboard arrow keys (up, down, left and right).
 * The player has a limited amount of moves.
 * The goal of the game is to move from the initial cell (yellow) to the target cell (green) before running out of moves.
 * When the player reaches the target cell, they get a "You won!" message and they can't move anymore.
-  ![screen-win](labyrinth-challenge.assets/screen-win.png)
 * When the player runs out of moves, they get a "You lost!" message, and they can't move anymore.
-  ![screen-lose](labyrinth-challenge.assets/screen-lose.png)
+
+![screen-win](labyrinth-challenge.assets/screen-win.png) ![screen-lose](labyrinth-challenge.assets/screen-lose.png)
 
 ## Technical requirements
 
