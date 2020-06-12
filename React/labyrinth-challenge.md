@@ -44,12 +44,12 @@ Here are some examples of how we imagine that the game might end up looking. It'
 
 ### Example with positions in grid
 
-<video src="labyrinth-challenge.assets/example-with-positions.mov"></video>
+![example-with-positions](labyrinth-challenge.assets/example-with-positions.gif)
 
 ### Example with fog of war
 
-<video src="labyrinth-challenge.assets/example-with-fog-of-war.mov"></video>
+![example-with-fog-of-war](labyrinth-challenge.assets/example-with-fog-of-war.gif)
 
 ### Example with different styles
 
-<video src="labyrinth-challenge.assets//example-with-styles.mov"></video>
+![example-with-styles](labyrinth-challenge.assets/example-with-styles.gif)
