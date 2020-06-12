@@ -138,3 +138,15 @@ class MyComponent extends React.Component {
 ```
 
 [MERN-Seed]: https://github.com/MakingSense/mern-seed
+
+## 7 - Master Detail Challenge
+
+This challenge requires you to create a master-detail application with a backend API.
+
+For more details, see the [master-detail challenge](master-detail.md).
+
+## 8 - Labyrinth Challenge
+
+This challenge requires you to code a small labyrinth game.
+
+For more details, see the [labyrinth challenge](labyrinth-challenge.md).
