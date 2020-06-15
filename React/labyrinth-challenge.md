@@ -26,7 +26,7 @@ The rules of the game are:
 
 Not doing any of the following will **not** get you penalized, and you are **not** required to do any of them. If you decide to do any of them, they might add to your qualification, always considering the quality of the code you create.
 
-* Visual improvements (e.g., the circle/cells could you images, or the movement could be animated)
+* Visual improvements (e.g., the circle/cells could use images, or the movement could be animated)
 * Restart functionality
 * Level progression (win and go to the next level)
 * High scores
