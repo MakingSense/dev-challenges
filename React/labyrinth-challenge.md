@@ -21,11 +21,13 @@ The rules of the game are:
 * You can add any library you consider that will help you build the game, as long as they are "regular web application" libraries. This means you can use libraries to help you with styles, state management, testing, etc. You cannot use libraries that are meant for building games.
 * You have to test the application / components, covering as much functionality as you can.
 * You have to build this application to the best of your abilities, considering customization and the possibility of extending it in the future.
+* You have to deliver the solution as a git repository 
 
 ## Nice to have
 
 Not doing any of the following will **not** get you penalized, and you are **not** required to do any of them. If you decide to do any of them, they might add to your qualification, always considering the quality of the code you create.
 
+* Use typescript
 * Visual improvements (e.g., the circle/cells could use images, or the movement could be animated)
 * Restart functionality
 * Level progression (win and go to the next level)
